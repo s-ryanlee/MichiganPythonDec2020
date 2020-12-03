@@ -25,7 +25,24 @@ data: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-20
 
 ### Covid-19 Data Analysis
 
+About Stanford's Blueprint Datathon
+
+"Blueprint Datathon is a competition at Stanford, hosted by Stanford Health Innovations for Future Technologies (SHIFT). We bring together students from diverse backgrounds to apply big data analytics to challenges in healthcare.
+
+We encourage undergraduate and graduate students with interests in Healthcare, Computer Science, Economics, Mathematics, or Business to participate. Participants will be provided with a few cases and corresponding data sets covering a health/biotech problem studied by industry and academia to discover meaningful insights.
+
+We expect participants to use statistical analysis techniques and tools to explore the data provided, and use the insights to make recommendations and qualitative models for adoption by appropriate stakeholders."
+
+https://www.blueprintdatathon.com/
+
 **Blueprint Datathon 2020 submission:** https://devpost.com/software/blueprint-datathon#updates
+
+Vertical 2: Health Disparities and infrastructure
+
+The pandemic has highlighted the long-standing disparities and inequities that exist in the health infrastructures of many countries around the world, including in the United States. Issues such as lack of access to quality health facilities, socioeconomic conditions, and racial discrimination disproportionately affect vulnerable and marginalized populations. 
+
+Your task will be to analyze given data to identify key socioeconomic factors that are contributing to these disparities, and understand how these disparities themselves progress as the pandemic continues.
+
 
 **Blueprint Datathon 2020 github repo:** https://github.com/s-ryanlee/BlueprintDatathon
 
