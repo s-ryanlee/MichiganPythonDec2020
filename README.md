@@ -39,9 +39,9 @@ https://www.blueprintdatathon.com/
 
 Vertical 2: Health Disparities and infrastructure
 
-The pandemic has highlighted the long-standing disparities and inequities that exist in the health infrastructures of many countries around the world, including in the United States. Issues such as lack of access to quality health facilities, socioeconomic conditions, and racial discrimination disproportionately affect vulnerable and marginalized populations. 
+"The pandemic has highlighted the long-standing disparities and inequities that exist in the health infrastructures of many countries around the world, including in the United States. Issues such as lack of access to quality health facilities, socioeconomic conditions, and racial discrimination disproportionately affect vulnerable and marginalized populations. 
 
-Your task will be to analyze given data to identify key socioeconomic factors that are contributing to these disparities, and understand how these disparities themselves progress as the pandemic continues.
+Your task will be to analyze given data to identify key socioeconomic factors that are contributing to these disparities, and understand how these disparities themselves progress as the pandemic continues."
 
 
 **Blueprint Datathon 2020 github repo:** https://github.com/s-ryanlee/BlueprintDatathon
