@@ -20,28 +20,35 @@ df = pd.read_csv('https://raw.githubusercontent.com/s-ryanlee/MiPyExample/main/b
 df.rename(columns={'User Rating': 'User_Rating'}, inplace=True)
 print(df)
 
+"""Let's say we only want to look at non fiction best sellers"""
+
+nonfiction_bestsellers = df[(df.Genre == 'Non Fiction')]
+print(nonfiction_bestsellers)
+
 """#Data Exploration
 
 Check variable correlations
 """
 
-corr_coe = df.corr()
+corr_coe = nonfiction_bestsellers.corr()
 print(corr_coe)
 sns.heatmap(corr_coe)
 
 """Simple visualizations"""
 
-sns.scatterplot(data=df, x='Year', y='User_Rating')
+#scatterplot using seaborn
+sns.scatterplot(data=nonfiction_bestsellers, x='Year', y='Reviews')
 
-df.plot('Year', 'User_Rating', kind='scatter')
+#scatterplot using matplotlib
+nonfiction_bestsellers.plot('Year', 'User_Rating', kind='scatter')
 
 """#Basic Linear Regression
 
 Change pandas data frame series to a numpy array
 """
 
-x1 = df[['Year']].to_numpy()
-y1 = df['User_Rating'].to_numpy()
+x1 = nonfiction_bestsellers[['Year']].to_numpy()
+y1 = nonfiction_bestsellers['Reviews'].to_numpy()
 #print(x1, y1)
 
 """Create Model and view correlation coefficient and intercept value"""
@@ -53,7 +60,7 @@ print(model.coef_, model.intercept_)
 
 """Apply regression line to plot"""
 
-df.plot('Year', 'User_Rating', kind='scatter')
+nonfiction_bestsellers.plot('Year', 'Reviews', kind='scatter')
 predict = model.predict(x1)
 plt.plot(x1, model.predict(x1))
 plt.show()
@@ -68,7 +75,7 @@ Even so, I later learned of some statistics specific libraries that made perform
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 
-model2 = smf.ols("User_Rating ~ Year", data=df).fit()
+model2 = smf.ols("Reviews ~ Year", data=df).fit()
 model2.summary()
 
 """With two lines of code, we can output a nice display. 
