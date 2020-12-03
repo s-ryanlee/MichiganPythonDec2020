@@ -23,10 +23,10 @@ Linear Regression Example
 data: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019 
 
 Covid-19 Data Analysis
-Blueprint Datathon 2020 submission: https://devpost.com/software/blueprint-datathon#updates
-Blueprint Datathon 2020 github repo: https://github.com/s-ryanlee/BlueprintDatathon
+**Blueprint Datathon 2020 submission:** https://devpost.com/software/blueprint-datathon#updates \n
+**Blueprint Datathon 2020 github repo:** https://github.com/s-ryanlee/BlueprintDatathon
 
 Resources
-Modern Dive, Chapter 5: Basic Regression https://moderndive.com/5-regression.html
+Modern Dive, Chapter 5: Basic Regression https://moderndive.com/5-regression.html \n
 Blueprint Datathon Pandas, Data Visualization, and Sklearn Overviews
 
